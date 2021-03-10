@@ -1,9 +1,9 @@
 {
     "particles": {
       "number": {
-        "value": 50,
+        "value": 30,
         "density": {
-          "enable": true,
+          "enable": false,
           "value_area": 800
         }
       },
@@ -42,7 +42,7 @@
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
+        "distance": 200,
         "color": "#5b5656",
         "opacity": 0.4,
         "width": 2
@@ -73,7 +73,7 @@
           "enable": false,
           "mode": "push"
         },
-        "resize": true
+        "resize": false
       },
       "modes": {
         "grab": {
@@ -101,5 +101,5 @@
         }
       }
     },
-    "retina_detect": true
+    "retina_detect": false
   }
