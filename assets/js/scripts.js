@@ -23,14 +23,6 @@ floating_btn.addEventListener('click', () => {
 });
 
 
-// particles
-
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', '/assets/particles.json', function() {
-	console.log('callback - particles.js config loaded');
-  });
-
-
 // jquery easing
 
 jQuery.easing.jswing=jQuery.easing.swing,jQuery.extend(jQuery.easing,{def:"easeOutQuad",easeOutExpo:function(e,n,u,a,s){return n==s?u+a:a*(1-Math.pow(2,-10*n/s))+u}});
